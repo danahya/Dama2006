@@ -54,8 +54,12 @@ IdUsuario (relación con tabla Usuario)
 Nuestra solución será implementada a través de una aplicación web y móvil donde los usuarios pueden interactuar de manera sencilla con la plataforma. Se crearán las siguientes funcionalidades específicas:
 
 **Panel de Usuario:**Los usuarios podrán registrarse e iniciar sesión utilizando su correo electrónico.
+
 **Creación de Quizzes:** Los usuarios pueden crear un quiz desde cero, añadiendo preguntas y respuestas.
+
 **Resolución de Quizzes:** Los usuarios podrán resolver quizzes de otros usuarios o quizes predeterminados por la aplicación.
+
 **Interacción Social:** Se permitirá compartir quizzes con amigos mediante enlaces.
+
 **Ranking y Progreso:** Los usuarios podrán ver sus estadísticas: cantidad de preguntas respondidas, porcentaje de aciertos, y rankings semanales de los mejores jugadores.
 
