@@ -18,39 +18,7 @@ Esta aplicación está dirigida a personas de todas las edades que deseen mejora
 **Modo Desafío:** Opción para competir con otros usuarios en tiempo real, completando quizzes en modo desafío.
 
 # Modelo Relacional
-Basado en la estructura SQL previamente detallada, aquí está el modelo relacional adaptado para AppQuizMaster:
-
-**Usuario:**
-- IdUsuario (clave primaria)
-- NombreUsuario
-- CorreoElectronico
-
-**Pregunta**
-- IdPregunta (clave primaria)
-- TextoPregunta
-  
-**Respuesta**
-- IdRespuesta (clave primaria)
-- TextoRespuesta
-- EsCorrecta (booleano)
-- IdPregunta (relación con tabla Pregunta)
-
-**Quiz**
-- IdQuiz (clave primaria)
-- NombreQuiz
-- DescripcionQuiz
-
-**QuizPregunta (relación muchos a muchos entre Quiz y Pregunta)**
-- IdQuiz (relación con tabla Quiz)
-- IdPregunta (relación con tabla Pregunta)
-
-**QuizUsuario (relación muchos a muchos entre Quiz y Usuario)**
-- IdQuiz (relación con tabla Quiz)
-- IdUsuario (relación con tabla Usuario)
-
-**SQL**
-![image](https://github.com/user-attachments/assets/528b1ad5-d1ec-4a09-a68c-c61bcba03116)
-![image](https://github.com/user-attachments/assets/1559878a-ed90-4cfe-aa4d-a91b1676a731)
+![ModeloRelacional_QuizMaster](https://github.com/user-attachments/assets/9f8f044e-55c1-4560-b78a-47c85272b876)
 
 # Desarrollo de la Propuesta
 Nuestra solución será implementada a través de una aplicación web y móvil donde los usuarios pueden interactuar de manera sencilla con la plataforma. Se crearán las siguientes funcionalidades específicas:
