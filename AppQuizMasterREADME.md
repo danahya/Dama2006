@@ -18,7 +18,7 @@ Esta aplicación está dirigida a personas de todas las edades que deseen mejora
 **Modo Desafío:** Opción para competir con otros usuarios en tiempo real, completando quizzes en modo desafío.
 
 # Modelo Relacional
-[ModeloRelacional_QuizMaster.pdf](https://github.com/user-attachments/files/16955885/ModeloRelacional_QuizMaster.pdf)
+![ModeloRelacional_QuizMaster](https://github.com/user-attachments/assets/36f9b473-2bd4-4736-9055-91f621d90e4a)
 
 # Desarrollo de la Propuesta
 Nuestra solución será implementada a través de una aplicación web y móvil donde los usuarios pueden interactuar de manera sencilla con la plataforma. Se crearán las siguientes funcionalidades específicas:
