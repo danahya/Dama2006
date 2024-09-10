@@ -21,31 +21,31 @@ Esta aplicación está dirigida a personas de todas las edades que deseen mejora
 Basado en la estructura SQL previamente detallada, aquí está el modelo relacional adaptado para AppQuizMaster:
 
 **Usuario:**
-IdUsuario (clave primaria)
-NombreUsuario
-CorreoElectronico
+- IdUsuario (clave primaria)
+- NombreUsuario
+- CorreoElectronico
 
 **Pregunta**
-IdPregunta (clave primaria)
-TextoPregunta
-Respuesta
-IdRespuesta (clave primaria)
-TextoRespuesta
-EsCorrecta (booleano)
-IdPregunta (relación con tabla Pregunta)
+- IdPregunta (clave primaria)
+- TextoPregunta
+- Respuesta
+- IdRespuesta (clave primaria)
+- TextoRespuesta
+- EsCorrecta (booleano)
+- IdPregunta (relación con tabla Pregunta)
 
 **Quiz**
-IdQuiz (clave primaria)
-NombreQuiz
-DescripcionQuiz
+- IdQuiz (clave primaria)
+- NombreQuiz
+- DescripcionQuiz
 
 **QuizPregunta (relación muchos a muchos entre Quiz y Pregunta)**
-IdQuiz (relación con tabla Quiz)
-IdPregunta (relación con tabla Pregunta)
+- IdQuiz (relación con tabla Quiz)
+- IdPregunta (relación con tabla Pregunta)
 
 **QuizUsuario (relación muchos a muchos entre Quiz y Usuario)**
-IdQuiz (relación con tabla Quiz)
-IdUsuario (relación con tabla Usuario)
+- IdQuiz (relación con tabla Quiz)
+- IdUsuario (relación con tabla Usuario)
 
 **SQL**
 
@@ -53,7 +53,7 @@ IdUsuario (relación con tabla Usuario)
 # Desarrollo de la Propuesta
 Nuestra solución será implementada a través de una aplicación web y móvil donde los usuarios pueden interactuar de manera sencilla con la plataforma. Se crearán las siguientes funcionalidades específicas:
 
-**Panel de Usuario:**Los usuarios podrán registrarse e iniciar sesión utilizando su correo electrónico.
+**Panel de Usuario:** Los usuarios podrán registrarse e iniciar sesión utilizando su correo electrónico.
 
 **Creación de Quizzes:** Los usuarios pueden crear un quiz desde cero, añadiendo preguntas y respuestas.
 
