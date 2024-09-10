@@ -10,7 +10,7 @@ AppQuizMaster es una aplicación que permite a los usuarios crear, compartir y r
 Con esta herramienta, los usuarios pueden seleccionar temas de interés, crear sus propias preguntas y respuestas, y realizar un seguimiento de su progreso. 
 Esta aplicación está dirigida a personas de todas las edades que deseen mejorar sus conocimientos, jugar con amigos o simplemente divertirse.
 
-## Características:
+## Características
 **Creación de Quizzes Personalizados:** Los usuarios podrán crear quizzes con sus propias preguntas y respuestas. Esto fomenta la creatividad y el aprendizaje, permitiendo a los usuarios compartir sus propios cuestionarios con otros.
 **Temáticas Variadas:** Los quizzes podrán clasificarse por temas (ciencia, historia, deportes, etc.), lo que permite a los usuarios elegir según sus intereses.
 **Niveles de Dificultad:** Los usuarios podrán filtrar preguntas o quizzes basados en tres niveles de dificultad: Fácil, Medio y Difícil.
@@ -49,7 +49,8 @@ Basado en la estructura SQL previamente detallada, aquí está el modelo relacio
 - IdUsuario (relación con tabla Usuario)
 
 **SQL**
-
+![image](https://github.com/user-attachments/assets/528b1ad5-d1ec-4a09-a68c-c61bcba03116)
+![image](https://github.com/user-attachments/assets/1559878a-ed90-4cfe-aa4d-a91b1676a731)
 
 # Desarrollo de la Propuesta
 Nuestra solución será implementada a través de una aplicación web y móvil donde los usuarios pueden interactuar de manera sencilla con la plataforma. Se crearán las siguientes funcionalidades específicas:
