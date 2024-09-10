@@ -28,7 +28,8 @@ Basado en la estructura SQL previamente detallada, aquí está el modelo relacio
 **Pregunta**
 - IdPregunta (clave primaria)
 - TextoPregunta
-- Respuesta
+  
+**Respuesta**
 - IdRespuesta (clave primaria)
 - TextoRespuesta
 - EsCorrecta (booleano)
